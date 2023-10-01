@@ -24,7 +24,7 @@ fun getUserChoice(currentArray: Array<String>): String {
     }
 }
 
-fun main(/*args: Array<String>*/) {
+fun main() {
     val options = arrayOf("Камень", "Ножницы", "Бумага")
     val pcChoice: String = getGameChoice(options)
     val userChoice: String = getUserChoice(options)
